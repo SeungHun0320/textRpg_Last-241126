@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="00_Main_Game">
+      <UniqueIdentifier>{c7497108-d07f-47dd-8c30-494c0b38b55c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Player_Manager">
+      <UniqueIdentifier>{56ed15b8-a144-43f9-8d7f-7365679813a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02_Object">
+      <UniqueIdentifier>{22cf392f-7e22-4a1e-85f8-408cf0a5819f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02_Object\00_Object">
+      <UniqueIdentifier>{882c88bf-03be-4e49-9f19-e69afdb46123}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02_Object\01_Player">
+      <UniqueIdentifier>{ba8e65a1-737f-4273-a821-2d686c789172}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03_Field">
+      <UniqueIdentifier>{2a37c4bc-78d1-44df-bd4c-9fcbcffeafe4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03_Field\00_Field">
+      <UniqueIdentifier>{38bd235d-c51f-4d43-bed1-68713625f26b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03_Field\01_Dungeon">
+      <UniqueIdentifier>{f18df36a-e680-455c-adef-9ab2ab2d41c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03_Field\02_Shop">
+      <UniqueIdentifier>{c384e3bb-37bf-43aa-8348-1cd88b2edac2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04_Inven">
+      <UniqueIdentifier>{cf106964-2e1f-452c-b432-a3637354454c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05_Item">
+      <UniqueIdentifier>{224a0759-7582-4437-8a8d-ad92b8951676}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02_Object\02_Monster">
+      <UniqueIdentifier>{94f7f688-d4ea-4471-9df8-12cb11601710}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03_Field\02_Shop\00_Shop">
+      <UniqueIdentifier>{095b3dd0-5f95-4286-87c5-076d57121e2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03_Field\02_Shop\01_Low_Shop">
+      <UniqueIdentifier>{7fd5f553-0fae-4535-95ec-37943153d73e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03_Field\02_Shop\02_Middle_Shop">
+      <UniqueIdentifier>{416b4bb0-b742-4b5d-aa1e-f9caa566c882}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03_Field\02_Shop\03_High_Shop">
+      <UniqueIdentifier>{ce6dcf93-e218-45b1-873c-b1788ecca290}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="신승훈 241123 텍알.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_Game.cpp">
+      <Filter>00_Main_Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Player_Manager.cpp">
+      <Filter>01_Player_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>02_Object\00_Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>02_Object\01_Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Inven.cpp">
+      <Filter>04_Inven</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>05_Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Field.cpp">
+      <Filter>03_Field\00_Field</Filter>
+    </ClCompile>
+    <ClCompile Include="Dungeon.cpp">
+      <Filter>03_Field\01_Dungeon</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>02_Object\02_Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Shop.cpp">
+      <Filter>03_Field\02_Shop\00_Shop</Filter>
+    </ClCompile>
+    <ClCompile Include="High_Shop.cpp">
+      <Filter>03_Field\02_Shop\03_High_Shop</Filter>
+    </ClCompile>
+    <ClCompile Include="Middle_Shop.cpp">
+      <Filter>03_Field\02_Shop\02_Middle_Shop</Filter>
+    </ClCompile>
+    <ClCompile Include="Low_Shop.cpp">
+      <Filter>03_Field\02_Shop\01_Low_Shop</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Main_Game.h">
+      <Filter>00_Main_Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Player_Manager.h">
+      <Filter>01_Player_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>02_Object\00_Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>02_Object\01_Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>05_Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Field.h">
+      <Filter>03_Field\00_Field</Filter>
+    </ClInclude>
+    <ClInclude Include="Dungeon.h">
+      <Filter>03_Field\01_Dungeon</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>02_Object\02_Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Shop.h">
+      <Filter>03_Field\02_Shop\00_Shop</Filter>
+    </ClInclude>
+    <ClInclude Include="High_Shop.h">
+      <Filter>03_Field\02_Shop\03_High_Shop</Filter>
+    </ClInclude>
+    <ClInclude Include="Middle_Shop.h">
+      <Filter>03_Field\02_Shop\02_Middle_Shop</Filter>
+    </ClInclude>
+    <ClInclude Include="Low_Shop.h">
+      <Filter>03_Field\02_Shop\01_Low_Shop</Filter>
+    </ClInclude>
+    <ClInclude Include="Inven.h">
+      <Filter>04_Inven</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
